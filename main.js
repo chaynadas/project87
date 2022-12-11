@@ -3,8 +3,8 @@ var canvas = new fabric.Canvas('myCanvas');
 block_y = 1;
 block_x = 1;
 
-block_image_width = 350;
-block_image_height = 430;
+block_image_width = 200;
+block_image_height = 330;
 
 var block_image_object = "";
 
@@ -28,7 +28,7 @@ function my_keydown(e) {
     keyPressed = e.keyCode;
     console.log(keyPressed);
 
-    if (keyPressed == '82') // add appropriate keycode
+    if (keyPressed == '82') 
     {
         new_image('rr1.png');
         console.log("r");
